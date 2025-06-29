@@ -55,6 +55,7 @@ body {
     margin-left: 5px;
     align-self: flex-end;
     margin-top: -2.5rem;
+    cursor: pointer;
 }
 
 .items {
