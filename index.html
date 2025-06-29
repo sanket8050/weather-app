@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input id="btn" autocomplete="off" type="text" placeholder="Enter the name of city" class="search">
+            <i  id = "i" class="fa-solid fa-magnifying-glass"></i>
+            <p class="error">city dose not exist</p>
+        </div>
+
+        <div class="items">
+            <div class="main">
+                <img  id="xxx" src="images/rain.png" class="Weather" >
+                <p id="seoson">sanket</p>
+                <p id="temp"><span class="temp-value"></span><span class="degree">&deg;C</span></p>
+                <h2 id="city"></h2>
+            </div>
+            <div class="wind-hum">
+                <div class="wind">
+                    <img src="images/wind.png"/>
+                    <div>
+                        <p id="wind-speed">10 km/hr</p>
+                        <p>Wind speed</p>
+                    </div>
+                    
+                </div>
+                <div class="vl"></div>
+                <div class="humidity">
+                    <img src="images/humidity.png"/>
+                    <div>
+                        <p id="humid">50 %</p>
+                        <p>humidity</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
